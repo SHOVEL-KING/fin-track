@@ -1,18 +1,53 @@
 import React from "react";
-import './HomePage.css'
-import money from "./assets/money.png"
+import {Link} from "react-router-dom";
+import "./HomePage.css";
+import money from "./assets/money.png";
+import analyze from "./assets/analyze.png";
+
 function HomePage() {
     return (
-        <div className={"App-background"}>
-            <div className={"App-header"}>
-                <img src={money} className={"Main-logo"} alt={"FinTrack Logo"}/>
-                <h1 className={"Website-name"}>FinTrack</h1>
+        <div className="App-background">
+            <div className="App-header">
+                <div className={"logo-text"}>
+                    <img src={money} className="logo" alt="FinTrack Logo"/>
+                    <p className="Website-name">FinTrack</p>
+                </div>
+                <div className={"right-buttons"}>
+                    <div className={"about-us"}>
+                        <p className={"ab-text"}>About Us</p>
+                    </div>
+                    <div className={"login"}>
+                        <p className={"login-text"}>Login</p>
+                    </div>
+                </div>
             </div>
-            <div className={"Advanced-data-background"}>
+            <div className={"welcome-header-container"}>
+                <h1 className={"welcome-header-text"}>
+                    Welcome To FinTrack
+                </h1>
+                <h2 className={"title-caption"}>Personalized, expert-crafted, reputable trading suggestions.</h2>
+            </div>
+            <div className={"tile-container"}>
+                <div className={"tile1"}>
+                    <div className={"rectangle1"}>
+                        <div className="tile1-circle">
+                            <svg
+                                className="Ellipse-data-background"
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="120"
+                                height="120"
+                                viewBox="0 0 120 120"
+                                fill="none"
+                            >
+                                <circle cx="60" cy="60" r="60" fill="#D9D9D9"/>
+                                <image x="28" y="30" width="60" height="60" href={analyze}/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-            </div>
         </div>
-
     );
 }
 

@@ -1,28 +1,107 @@
 .App-background {
-    width: 1440px;
-    height: 1080px;
-    min-height: 300px;
+    width: 100%;
+    height: 100vh;
+    max-width: 100vw;
+
+
 }
 .App-header {
-    width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
     height: 94px;
     flex-shrink: 0;
     background: #DFDFDF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding-right: 200px;
+
 }
-.Main-logo {
-    margin-left: 32px;
-    margin-top: 21px;
+.logo-text{
+    flex-direction: column;
+    margin-left: 18px;
+    margin-top: 9px;
+}
+.logo {
     width: 57px;
-    height: 57px;
-    flex-shrink: 0;
+    height: auto;
+
 }
 .Website-name {
-    margin-left: 104px;
-    margin-top: -54px;
-    width: 172px;
+    width: 68px;
     height: 39px;
+    margin-top: 0px;
+    color: #000;
+    font-family: Kaisei Decol;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+}
+.right-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+    padding: 22px 27px;
+
+}
+.about-us {
+    display: flex;
+    margin-right: 15px;
+    align-items: center;
+    justify-content: center;
+    height: 56px;
+    width: 220px;
     flex-shrink: 0;
+    border-radius: 20px;
+    background: #DCF3FF;
+}
+.ab-text {
+    margin: 0;
+    text-align: center;
+    width: 110px;
+    color: #000;
+    font-family: Kaisei Decol;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    width: 130px;
+    height: 56px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #DCF3FF;
+}
+.login-text {
+    margin: 0;
+    text-align: center;
+    color: #000;
+    font-family: Kaisei Decol;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.welcome-header-container {
+    flex-direction: column;
+    align-items: center;
+    height: 84px;
+    padding-top: 26px;
+    padding-bottom: 60px;
+}
+
+.welcome-header-text {
+    margin-bottom: 16px;
+    text-align: center;
+    width: 100%;
     color: #000;
     font-family: Kaisei Decol;
     font-size: 36px;
@@ -30,15 +109,64 @@
     font-weight: 500;
     line-height: normal;
 }
-Advanced-data-background {
-    margin-left: 48px;
-    margin-top: 280px;
+.title-caption {
+    margin-top: 16px;
+    text-align: center;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Kaisei Decol;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.title-container {
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+.tile1 {
+
+
+}
+.rectangle1 {
     width: 400px;
-    height: 324px;
+    height: 325px;
     flex-shrink: 0;
     border-radius: 20px;
     background: #A2D2DF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
-
 }
+/*.Advanced-data-background {*/
+/*    position: absolute;*/
+/*    left: 48px;*/
+/*    top: 280px;*/
+/*    width: 400px;*/
+/*    height: 324px;*/
+/*    flex-shrink: 0;*/
+/*    border-radius: 20px;*/
+/*    background: #A2D2DF;*/
+/*    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);*/
+/*}*/
+/*.Analyze-logo {*/
+/*    width: 60px;*/
+/*    height: 60px;*/
+/*    flex-shrink: 0;*/
+
+/*}*/
+/*.Ellipse-data-background {*/
+/*    margin-left: 150px;*/
+/*    margin-right: 130px;*/
+/*    margin-top: -50px;*/
+/*}*/
+/*.Welcome-header {*/
+/*    left: 538px;*/
+/*    margin-top: 44px;*/
+/*    color: #000;*/
+/*    font-family: Kaisei Decol;*/
+/*    font-size: 36px;*/
+/*    font-style: normal;*/
+/*    font-weight: 500;*/
+/*    line-height: normal;*/
+/*}*/
