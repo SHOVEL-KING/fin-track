@@ -30,9 +30,9 @@ function HomePage() {
             <div className={"tile-container"}>
                 <div className={"tile1"}>
                     <div className={"rectangle1"}>
-                        <div className="tile1-circle">
+                        <div className="circle-container">
                             <svg
-                                className="Ellipse-data-background"
+                                className="tile1-circle-content"
                                 xmlns="http://www.w3.org/2000/svg"
                                 width="120"
                                 height="120"
@@ -43,6 +43,8 @@ function HomePage() {
                                 <image x="28" y="30" width="60" height="60" href={analyze}/>
                             </svg>
                         </div>
+                        <h3 className={"ad-subheading"}>Advanced Data</h3>
+                        <h4 className={"ad-caption"}>We use advanced data collection techniques to predict the best trades and positions. </h4>
                     </div>
                 </div>
             </div>
